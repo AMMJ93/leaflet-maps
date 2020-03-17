@@ -87,15 +87,12 @@ let flatCacheMiddleware = (req,res, next) => {
 //   res.render('index', { title: 'Hoi' });
 // });
 
-/* GET all municipalities*/
-
 router.get('/CENSORED_VARIABLE', function (req, res) {
   Json.find({'type': 'CENSORED_VARIABLE'},{'_id': 0, 'name': 1, 'geometry': 1}).distinct('name', function (err, docs) {
     res.json(docs);
   });
 });
 
-/* GET json data per municipality */
 router.get('/CENSORED_VARIABLE/', function (req, res) {
   console.log(req.params.name);
   if (req.params.name) {
@@ -105,7 +102,6 @@ router.get('/CENSORED_VARIABLE/', function (req, res) {
   }
 });
 
-/* GET json data per municipality per date */
 router.get('/CENSORED_VARIABLE/', function (req, res) {
   console.log(req.params.name);
   if (req.params.name && req.params.date) {
@@ -115,7 +111,6 @@ router.get('/CENSORED_VARIABLE/', function (req, res) {
   }
 });
 
-/* GET json data geography per municipality*/
 router.get('/CENSORED_VARIABLE/', function (req, res) {
   console.log(req.params.name);
   if (req.params.name) {
@@ -125,7 +120,6 @@ router.get('/CENSORED_VARIABLE/', function (req, res) {
   }
 });
 
-/* GET json data per province */
 router.get('CENSORED_VARIABLE', function (req, res) {
   console.log(req.params.provincie);
   if (req.params.provincie && req.params.date) {
@@ -135,14 +129,12 @@ router.get('CENSORED_VARIABLE', function (req, res) {
   }
 });
 
-/* GET all data. */
 router.get('/CENSORED_VARIABLE', function (req, res) {
   Json.find({}, {}, function (err, docs) {
     res.json(docs);
   });
 });
 
-/* GET Municipality counts for all dates. */
 router.get('/CENSORED_VARIABLE', function (req, res) {
   console.log(req.params.name);
   if (req.params.name) {
@@ -152,21 +144,18 @@ router.get('/CENSORED_VARIABLE', function (req, res) {
   }
 });
 
-/* GET totals municipalities*/
 router.get('/CENSORED_VARIABLE', function (req, res) {
   Json.find({"type": "CENSORED_VARIABLE", "total": {"$exists": true}}, {'_id': 0, "type": 0, "provincie": 0}, function (err, docs) {
     res.json(docs);
   });
 });
 
-/* GET totals provinces*/
 router.get('/CENSORED_VARIABLE', function (req, res) {
   Json.find({"type": "CENSORED_VARIABLE", "total": {"$exists": true}}, {'_id': 0, "type": 0}, function (err, docs) {
     res.json(docs);
   });
 });
 
-/* GET hospitals*/
 router.get('/CENSORED_VARIABLE', function (req, res) {
   Json.find({"type": "CENSORED_VARIABLE"}, {'_id': 0, "type": 0}, function (err, docs) {
     res.json(docs);
