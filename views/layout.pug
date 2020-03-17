@@ -1,0 +1,64 @@
+doctype html
+html
+  head
+    title= title
+    link(rel="apple-touch-icon", sizes="57x57", href="/apple-icon-57x57.png")
+    link(rel="apple-touch-icon", sizes="60x60", href="/apple-icon-60x60.png")
+    link(rel="apple-touch-icon", sizes="72x72", href="/apple-icon-72x72.png")
+    link(rel="apple-touch-icon", sizes="76x76", href="/apple-icon-76x76.png")
+    link(rel="apple-touch-icon", sizes="114x114", href="/apple-icon-114x114.png")
+    link(rel="apple-touch-icon", sizes="120x120", href="/apple-icon-120x120.png")
+    link(rel="apple-touch-icon", sizes="144x144", href="/apple-icon-144x144.png")
+    link(rel="apple-touch-icon", sizes="152x152", href="/apple-icon-152x152.png")
+    link(rel="apple-touch-icon", sizes="180x180", href="/apple-icon-180x180.png")
+    link(rel="icon", type="image/png", sizes="192x192", href="/android-icon-192x192.png")
+    link(rel="icon", type="image/png", sizes="32x32", href="/favicon-32x32.png")
+    link(rel="icon", type="image/png", sizes="96x96", href="/favicon-96x96.png")
+    link(rel="icon", type="image/png", sizes="16x16", href="/favicon-16x16.png")
+    link(rel="manifest", href="/manifest.json")
+    meta(name="msapplication-TileColor", content="#ffffff")
+    meta(name="msapplication-TileImage", content="/ms-icon-144x144.png")
+    meta(name="theme-color", content="#ffffff")
+    link(rel="icon", href="favicon.ico?v=1.1", type="image/x-icon")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/leaflet.css')
+    link(rel='stylesheet', href='/stylesheets/L.Control.ZoomBar.css')
+    link(rel='stylesheet', href='/stylesheets/MarkerCluster.Default.css')
+    link(rel='stylesheet', href='/stylesheets/jquery-ui.css')
+    link(rel='stylesheet', href='/stylesheets/screen.css')
+    link(rel='stylesheet', href='/stylesheets/c3.css')
+    link(rel='stylesheet', href='/stylesheets/leaflet.zoomhome.css')
+    //link(rel='stylesheet', href='/stylesheets/social.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
+    //link(rel='stylesheet', href='/stylesheets/spinner.css')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Poppins')
+    //link(rel='stylesheet', href='/stylesheets/CustomMarker.css')
+    link(rel='stylesheet', href='/stylesheets/leaflet.infoButton.css')
+    script(src='/javascripts/jquery-3.4.1.min.js')
+    script(src='/javascripts/jquery-ui.js')
+    script(src="/javascripts/leaflet.js")
+    script(src="/javascripts/leaflet.zoomhome.js")
+    script(src="https://unpkg.com/proj4@2.5.0/dist/proj4-src.js")
+    script(src="https://unpkg.com/proj4leaflet@1.0.1")
+
+    //script(src="/javascripts/spin.js")
+    //script(src="/javascripts/leaflet.spin.min.js")
+    //script(src="/javascripts/L.Control.ZoomBar.js")
+    script(src="/javascripts/leaflet-providers.js")
+    script(src='/javascripts/leaflet.markercluster.js')
+    script(src='/javascripts/leaflet-timeline-slider.js')
+    script(src='/javascripts/leaflet.infoButton.js')
+    script(src='/javascripts/charts.js')
+    script(src='/javascripts/c3.js')
+    script(src='/javascripts/d3.js')
+    script(src='https://github.com/makinacorpus/Leaflet.Spin/blob/master/leaflet.spin.js')
+    script(async src="https://www.googletagmanager.com/gtag/js?id=UA-121115116-1")
+    script(type='text/javascript').
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-121115116-1');
+
+
+  body
+    block content

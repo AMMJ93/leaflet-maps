@@ -1,0 +1,64 @@
+/*.cluster1 {*/
+/*    background-clip: padding-box;*/
+/*    border-radius: 20px;*/
+/*}*/
+
+.cluster1 {
+    height: 80px;
+    width:100%;
+    padding: 15px;
+    /*margin-top: 100px;*/
+    text-align: center;
+    /*background-position: center -8px;*/
+    background-image: url("/icons/clusters/cluster1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*background-position: 0px -5.5px;*/
+    font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+/*.cluster1 span {*/
+/*    line-height: 50px;*/
+/*}*/
+
+.cluster2 {
+    height: 80px;
+    width:100%;
+    padding: 15px;
+    /*margin-top: 100px;*/
+    text-align: center;
+    background-position: center -8px;
+    background-image: url("/icons/clusters/cluster2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*background-position: 0px -5.5px;*/
+    font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.cluster3 {
+    height: 80px;
+    width:100%;
+    padding: 15px;
+    /*margin-top: 100px;*/
+    text-align: center;
+    background-position: center -8px;
+    background-image: url("/icons/clusters/cluster3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*background-position: 0px -5.5px;*/
+    font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.cluster4 {
+    height: 80px;
+    width:100%;
+    padding: 15px;
+    /*margin-top: 100px;*/
+    text-align: center;
+    background-position: center -8px;
+    background-image: url("/icons/clusters/cluster4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*background-position: 0px -5.5px;*/
+    font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,41 @@
+{
+  "name": "covid",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "c3": "^0.7.3",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.4",
+    "d3": "^5.9.7",
+    "debug": "^2.6.9",
+    "express": "^4.16.4",
+    "express-ip-filter": "^2.0.0",
+    "express-ipfilter": "^1.0.1",
+    "flat-cache": "^2.0.1",
+    "fs": "0.0.1-security",
+    "helmet": "^3.21.1",
+    "http-errors": "^1.6.3",
+    "identifier": "0.0.0",
+    "jquery": "^3.4.1",
+    "jquery-ui": "^1.12.1",
+    "leaflet": "^1.5.1",
+    "leaflet-providers": "^1.8.0",
+    "leaflet-spin": "^1.1.0",
+    "leaflet.markercluster": "^1.4.1",
+    "leaflet.markercluster.layersupport": "^2.0.1",
+    "memory-cache": "^0.2.0",
+    "mongoose": "^5.6.3",
+    "morgan": "^1.9.1",
+    "node-cmd": "3.0.0",
+    "pug": "^2.0.0-beta11",
+    "run-script-os": "1.0.7",
+    "serve-favicon": "^2.5.0",
+    "spin": "0.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.1"
+  }
+}
