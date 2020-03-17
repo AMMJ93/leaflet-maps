@@ -1,3 +1,3 @@
 # leaflet-nodejs-mongodb
 
-**Implementation of Leaflet in NodeJS and with a connection to MongoDB**
+**My implementation of Leaflet in NodeJS and with a connection to MongoDB. Stripped version, most of the view is missing. **
